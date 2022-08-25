@@ -239,5 +239,11 @@ Function Prototypes
   * [121-avl_insert.c](./121-avl_insert.c): C function that inserts a value in an AVL tree.
   * Returns a value to the inserted node, or `NULL` on failure.
 
+* **32. AVL - Array to AVL**
+  * [122-array_to_avl.c](./122-array_to_avl.c): C function that builds an AVL tree
+  from an array.
+  * Returns a pointer to the root node of the created AVL tree, or `NULL` on failure.
+  * Ignores duplicate values.
+
 
 </details>
