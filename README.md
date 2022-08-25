@@ -259,4 +259,20 @@ Function Prototypes
     * Extracting the root node.
     * Searching for a node in a binary heap of size `n`.
 
+## Authors
+<details>
+    <summary>Oluwadamilola Olaniyi</summary>
+    <ul>
+    <li><a href="https://www.github.com/oludammydy">Github</a></li>
+    <li><a href="https://www.twitter.com/dharmires">Twitter</a></li>
+    <li><a href="mailto:oludammydy@gmail.com">E-mail</a></li>
+    </ul>
+</details>
+<details>
+    <summary>Bamidele Adefolaju</summary>
+    <ul>
+    <li><a href="https://www.github.com/lexxyla">Github</a></li>
+    <li><a href="https://www.twitter.com/#">Twitter</a></li>
+    <li><a href="mailto:#@gmail.com">e-mail</a></li>
+    </ul>
 </details>
