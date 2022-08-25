@@ -131,5 +131,17 @@ Function Prototypes
   * [10-binary_tree_depth.c](./10-binary_tree_depth.c): C function that returns
   the depth of a given node in a binary tree.
 
+* **11. Size**
+  * [11-binary_tree_size.c](./11-binary_tree_size.c): C function that returns
+  the size of a binary tree.
+
+* **12. Leaves**
+  * [12-binary_tree_leaves.c](./12-binary_tree_leaves.c): C function that returns
+  the number of leaves in a binary tree.
+
+* **13. Nodes**
+  * [13-binary_tree_nodes.c](./13-binary_tree_nodes.c): C function that returns
+  the number of nodes in a binary tree with at least one child.
+
 
 </details>
