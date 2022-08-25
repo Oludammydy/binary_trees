@@ -209,5 +209,25 @@ Function Prototypes
   search tree from an array.
   * Returns a pointer to the root node of the created tree, or `NULL` on failure.
 
+* **27. BST - Search**
+  * [113-bst_search.c](./113-bst_search.c): C function that searches for a value
+  in a binary search tree.
+  * If the value is matched in the BST, returns a pointer to the matched node.
+  * Otherwise, returns `NULL`.
+
+* **28. BST - Remove**
+  * [114-bst_remove.c](./114-bst_remove.c): C function that removes a node from
+  a binary search tree.
+  * Returns a pointer to the new root node of the tree after deletion.
+  * If the node to be deleted has two children, it is replaced with its first
+  in-order successor.
+
+* **29. Big O #BST**
+  * [115-O](./115-O): Text file containing the average time complexities of
+  binary search tree operations (one answer per line):
+    * Inserting the value `n`.
+    * Removing the node with the value `n`.
+    * Searching for a node in a BST of size `n`.
+
 
 </details>
