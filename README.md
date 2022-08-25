@@ -177,5 +177,31 @@ Function Prototypes
   * [101-binary_tree_levelorder.c](./101-binary_tree_levelorder.c): C function
   that traverses a binary tree using level-order traversal.
 
+* **21. Is complete**
+  * [102-binary_tree_is_complete.c](./102-binary_tree_is_complete.c): C function
+  that checks if a binary tree is complete.
+  * Returns `1` if the tree is complete, `0` otherwise.
+
+* **22. Rotate left**
+  * [103-binary_tree_rotate_left.c](./103-binary_tree_rotate_left.c): C function
+  that performs a left-rotation on a binary tree.
+  * Returns a pointer to the new root node of the tree after rotation.
+
+* **23. Rotate right**
+  * [104-binary_tree_rotate_right.c](./104-binary_tree_rotate_right.c): C function
+  that performs a right-rotation on a binary tree.
+  * Returns a pointer to the new root node of the tree after rotation.
+
+* **24. Is BST**
+  * [110-binary_tree_is_bst.c](./110-binary_tree_is_bst.c): C function that
+  checks if a binary tree is a valid binary search tree.
+  * Returns `1` if the tree is a valid BST, `0` otherwise.
+
+* **25. BST - Insert**
+  * [111-bst_insert.c](./111-bst_insert.c): C function that inserts a value into
+  a binary search tree.
+  * Returns a pointer to the new node, or `NULL` on failure.
+  * If the tree is `NULL`, the value becomes the root node.
+  * The value is ignored if it is already present in the tree.
 
 </details>
