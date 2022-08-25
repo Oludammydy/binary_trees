@@ -162,5 +162,16 @@ Function Prototypes
   returns a pointer to the sibling of a given node in a binary tree.
   * Returns `NULL` if no sibling is found.
 
+* **18. Uncle**
+  * [18-binary_tree_uncle.c](./18-binary_tree_uncle.c): C function that
+  returns a pointer to the uncle of a given node in a binary tree.
+  * Returns `NULL` if no uncle is found.
+
+* **19. Lowest common ancestor**
+  * [100-binary_trees_ancestor.c](./100-binary_trees_ancestor.c): C function
+  that returns a pointer to the lowest common ancestor node of two given nodes
+  in a binary tree.
+  * Returns `NULL` if no common ancestor is found.
+
 
 </details>
