@@ -197,5 +197,17 @@ Function Prototypes
   checks if a binary tree is a valid binary search tree.
   * Returns `1` if the tree is a valid BST, `0` otherwise.
 
+* **25. BST - Insert**
+  * [111-bst_insert.c](./111-bst_insert.c): C function that inserts a value into
+  a binary search tree.
+  * Returns a pointer to the new node, or `NULL` on failure.
+  * If the tree is `NULL`, the value becomes the root node.
+  * The value is ignored if it is already present in the tree.
+
+* **26. BST - Array to BST**
+  * [112-array_to_bst.c](./112-array_to_bst.c): C function that builds a binary
+  search tree from an array.
+  * Returns a pointer to the root node of the created tree, or `NULL` on failure.
+
 
 </details>
