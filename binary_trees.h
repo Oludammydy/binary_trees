@@ -9,6 +9,10 @@
 #include <math.h>
 #include <limits.h>
 
+
+#define MAX(a, b) ((a) > (b) ? (a) : (b))
+
+
 /**
  * struct binary_tree_s - Binary tree node
  *
@@ -80,10 +84,15 @@ int *heap_to_sorted_array(heap_t *heap, size_t *size);
 void btlo_helper(const binary_tree_t *tree, void (*func)(int), size_t level);
 void sata_helper(avl_t **root, int *array, size_t lo, size_t hi);
 int btih_helper(const binary_tree_t *tree);
-avl_t *avl_search_remove(avl_t **tree, int value);
-void change_node(avl_t **arg_tree, avl_t **arg_node);
-avl_t *inorder_sucessor(avl_t *tree, int mode);
+int remove_type(bst_t *root);
 void check_balance_avl(avl_t **node, int value);
+avl_t *inorder_sucessor(avl_t *tree, int mode);
+void change_node(avl_t **arg_tree, avl_t **arg_node);
+avl_t *avl_search_remove(avl_t **tree, int value);
+bst_t *swap(bst_t *a, bst_t *b);
+heap_t *swap_head(heap_t *head, heap_t *node);
+heap_t *perc_down(heap_t *node);
+
 
 int btic_helper(const binary_tree_t *tree, size_t index, size_t size);
 #endif /* _BINARY_TREES_H_ */
