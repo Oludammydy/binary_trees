@@ -78,6 +78,8 @@ int *heap_to_sorted_array(heap_t *heap, size_t *size);
 
 /* helper functions */
 void btlo_helper(const binary_tree_t *tree, void (*func)(int), size_t level);
+void sata_helper(avl_t **root, int *array, size_t lo, size_t hi);
+int btih_helper(const binary_tree_t *tree);
 
 /*tests*/
 int btic_helper(const binary_tree_t *tree, size_t index, size_t size);
