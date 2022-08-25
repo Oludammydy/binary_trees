@@ -127,5 +127,9 @@ Function Prototypes
   * [9-binary_tree_height.c](./9-binary_tree_height.c): C function that returns
   the height of a binary tree.
 
+* **10. Depth**
+  * [10-binary_tree_depth.c](./10-binary_tree_depth.c): C function that returns
+  the depth of a given node in a binary tree.
+
 
 </details>
