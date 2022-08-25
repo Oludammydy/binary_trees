@@ -80,7 +80,10 @@ int *heap_to_sorted_array(heap_t *heap, size_t *size);
 void btlo_helper(const binary_tree_t *tree, void (*func)(int), size_t level);
 void sata_helper(avl_t **root, int *array, size_t lo, size_t hi);
 int btih_helper(const binary_tree_t *tree);
+avl_t *avl_search_remove(avl_t **tree, int value);
+void change_node(avl_t **arg_tree, avl_t **arg_node);
+avl_t *inorder_sucessor(avl_t *tree, int mode);
+void check_balance_avl(avl_t **node, int value);
 
-/*tests*/
 int btic_helper(const binary_tree_t *tree, size_t index, size_t size);
 #endif /* _BINARY_TREES_H_ */
