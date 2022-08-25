@@ -152,4 +152,30 @@ Function Prototypes
   checks if a binary tree is full.
   * Returns `1` if a tree is full, `0` otherwise.
 
+* **16. Is perfect**
+  * [16-binary_tree_is_perfect.c](./16-binary_tree_is_perfect.c): C function
+  that checks if a binary tree is perfect.
+  * Returns `1` if a tree is perfect, `0` otherwise.
+
+* **17. Sibling**
+  * [17-binary_tree_sibling.c](./17-binary_tree_sibling.c): C function that
+  returns a pointer to the sibling of a given node in a binary tree.
+  * Returns `NULL` if no sibling is found.
+
+* **18. Uncle**
+  * [18-binary_tree_uncle.c](./18-binary_tree_uncle.c): C function that
+  returns a pointer to the uncle of a given node in a binary tree.
+  * Returns `NULL` if no uncle is found.
+
+* **19. Lowest common ancestor**
+  * [100-binary_trees_ancestor.c](./100-binary_trees_ancestor.c): C function
+  that returns a pointer to the lowest common ancestor node of two given nodes
+  in a binary tree.
+  * Returns `NULL` if no common ancestor is found.
+
+* **20. Level-order traversal**
+  * [101-binary_tree_levelorder.c](./101-binary_tree_levelorder.c): C function
+  that traverses a binary tree using level-order traversal.
+
+
 </details>
