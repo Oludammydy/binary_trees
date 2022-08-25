@@ -2,7 +2,7 @@
 
 # binary_trees
 
-A C-project assigned to a team of 2 by ALX
+A C-project assigned to a team of 2 by ALX.
 This is a group project where we learnt about the advantages,
 and disadvantages of using trees as data structures. We learned how to
 qualify trees and also, how to traverse them. 
@@ -81,6 +81,7 @@ Function Prototypes
 | `130-binary_tree_is_heap.c`             | `int binary_tree_is_heap(const binary_tree_t *tree);`                                                  |
 | `131-heap_insert.c`             | `heap_t *heap_insert(heap_t **root, int value)`                                                  |
 | `132-array_to_heap.c`             | `heap_t *array_to_heap(int *array, size_t size);`                                                  |
+| `133-heap_extract.c`             | `int heap_extract(heap_t **root);`                                                  |
 
 ## Tasks :page_with_curl:
 
