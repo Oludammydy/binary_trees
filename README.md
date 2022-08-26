@@ -83,6 +83,7 @@ Function Prototypes
 | `132-array_to_heap.c`             | `heap_t *array_to_heap(int *array, size_t size);`                                                  |
 | `133-heap_extract.c`             | `int heap_extract(heap_t **root);`                                                  |
 | `134-heap_to_sorted_array.c`             | `int *heap_to_sorted_array(heap_t *heap, size_t *size);`                                                  |
+| `135-O`             | `nill`                                                  |
 
 ## Tasks :page_with_curl:
 
