@@ -254,6 +254,12 @@ Function Prototypes
   * Returns a pointer to the root node of the created AVL tree, or `NULL` on failure.
   * Ignores duplicate values.
 
+* **33. AVL - Remove**
+  * [123-avl_remove.c](./123-avl_remove.c): C function that removes a node from an AVL tree.
+  * Return a pointer to the new root node of the tree after removing the desired value, and after rebalancing.
+  * The node containing a value equals to value must be removed and freed.
+  * Node is to be deleted if it has two children, it must be replaced with its first in-order successor (not predecessor).
+
 * **35. Big O #AVL Tree**
   * [125-O](./125-O): Text file containing the average time complexities of AVL tree
   opeartions (one answer per line):
